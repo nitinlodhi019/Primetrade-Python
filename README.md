@@ -18,6 +18,13 @@ The bot is modular, configurable, and includes logging to track all activity.
 
 - Balance check method for account funds
 
+## Some Images
+
+<img width="1915" height="971" alt="Screenshot 2025-09-25 133313" src="https://github.com/user-attachments/assets/9fefaf1c-b961-425d-9089-ac212242ae1d" />
+
+<img width="1916" height="864" alt="Screenshot 2025-09-25 133238" src="https://github.com/user-attachments/assets/9bfd8779-a771-475a-af7a-1427a37d4fe0" />
+
+
 ## Project Structure
 
 ```bash
@@ -34,8 +41,8 @@ project/
 
 - Clone Repo
 ```
-git clone <your_repo_url>
-cd project
+git clone https://github.com/nitinlodhi019/Primetrade-Python.git
+cd Primetrade-Python
 ```
 
 - Install Requirements
