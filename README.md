@@ -38,39 +38,42 @@ git clone <your_repo_url>
 cd project
 ```
 
-Install Requirements
-
+- Install Requirements
+```
 pip install -r requirements.txt
+```
 
-
-Set Environment Variables
-Create a .env file (based on .env.example) and add your Binance Testnet API keys:
-
+- Set Environment Variables
+  
+Create a .env file (based on .env) and add your Binance Testnet API keys:
+```
 BINANCE_API_KEY=your_api_key_here
 BINANCE_API_SECRET=your_api_secret_here
+```
+- Get keys from [Binance Futures Testnet](https://testnet.binancefuture.com/en/futures/BTCUSDT)
 
-
-🔑 Get keys from Binance Futures Testnet
-.
-
-▶️ Usage
+## Usage
 
 Run the bot with desired order parameters:
-
+```
 python trading_bot.py --symbol BTCUSDT --side SELL --type STOP --quantity 0.001 --price 112900 --stop-price 11300
-
-Example: Market Order
+```
+**Example: Market Order**
+```
 python trading_bot.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
+```
 
-Example: Limit Order
+**Example: Limit Order**
+```
 python trading_bot.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 27000
+```
 
-📊 Logs
+## Logs
 
 All actions are logged in trading_bot.log, including:
 
-Order requests
+- Order requests
 
-API responses
+- API responses
 
-Status updates
+- Status updates
